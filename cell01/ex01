@@ -1,0 +1,5 @@
+# name.py
+first_name = "Priyavit"
+last_name = "Kuerthip"
+whole_name = first_name + " " + last_name
+print(whole_name)
