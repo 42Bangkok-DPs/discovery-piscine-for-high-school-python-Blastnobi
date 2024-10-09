@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+def swap():
+    userinput = input()
+    swapped = userinput.swapcase()
+    print(swapped)
+
+if __name__ == "__main__":
+    swap()
