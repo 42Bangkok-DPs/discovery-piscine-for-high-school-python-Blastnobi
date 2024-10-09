@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import math
+
+def roundup():
+    userinput = input("Give me a number: ")
+
+    try:
+        num = float(userinput)
+        roundednum = math.ceil(num)
+        print(rounded_num)
+    except ValueError:
+        print("Invalid input. Please enter a valid number.")
+
+if __name == "__main":
+    round_up()
