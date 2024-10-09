@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-def check_number_type():
+def check():
     number = input("Give me a number: ")
 
     try:
@@ -13,4 +13,4 @@ def check_number_type():
         print("Invalid input. Please enter a valid number.")
 
 if __name__ == "__main__":
-    check_number_type()
+    check()
