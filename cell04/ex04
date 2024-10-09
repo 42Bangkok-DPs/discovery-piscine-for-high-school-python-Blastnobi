@@ -2,14 +2,14 @@
 import math
 
 def roundup():
-    userinput = input("Give me a number: ")
+    number = input("Give me a number: ")
 
     try:
-        num = float(userinput)
+        num = float(number)
         roundednum = math.ceil(num)
-        print(rounded_num)
+        print(roundednum)
     except ValueError:
         print("Invalid input. Please enter a valid number.")
 
-if __name == "__main":
-    round_up()
+if __name__ == "__main__":
+    roundup()
