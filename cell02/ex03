@@ -1,0 +1,18 @@
+!/usr/bin/env python3                                                          
+mult1 = input("Enter the first number: ")
+mult1 = int(mult1)
+
+mult2 = input("Enter the second number:")
+mult2 = int(mult2)
+
+m1Xm2 = mult1 * mult2
+
+print(mult1 , "X" ,  mult2 , "=" , m1Xm2)
+
+m1Xm2 = int(m1Xm2)
+if m1Xm2  < 0:
+   print("This number is negative.")
+elif m1Xm2 > 0:
+   print("This number is positive.")
+else:
+   print("This number is both positive and negative.")
