@@ -1,0 +1,10 @@
+  GNU nano 6.2                    i_got_that.py                             
+#!/usr/bin/env python3
+
+say = input("What you gonna say? : ")
+
+while True:
+    say2 = input("I got that! Anything else? : ")
+
+    if say2.upper() == "STOP":
+        break
